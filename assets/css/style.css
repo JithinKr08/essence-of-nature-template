@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background: url("../img/diet-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -517,9 +517,6 @@ section {
   background-color: #8fffd6;
 }
 
-.section-title {
-  padding-bottom: 30px;
-}
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -640,6 +637,10 @@ section {
 }
 .services .icon-box:hover h4 a {
   color: #009961;
+}
+
+.services{
+  background-color: #f9f9f9;
 }
 
 /*--------------------------------------------------------------
@@ -788,6 +789,13 @@ section {
 }
 
 /*--------------------------------------------------------------
+# make an appointment
+--------------------------------------------------------------*/
+.appointment{
+  background-color: #f9f9f9;
+}
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
@@ -927,7 +935,7 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
 }
 .pricing .box {
   padding: 40px 20px;
@@ -1241,6 +1249,11 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+
+.contact{
+  background-color: #f9f9f9;
 }
 
 /*--------------------------------------------------------------
